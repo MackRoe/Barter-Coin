@@ -24,4 +24,4 @@ Example Face and Name
 - can use a map to easily navigate to barter location
 
 # Wire Frames
-(BC-WireFrame1.jpg)(BC-WireFrame2.jpg)
+(https://github.com/MackRoe/Barter-Coin/blob/master/BC-WireFrame1.jpg)(https://github.com/MackRoe/Barter-Coin/blob/master/BC-WireFrame2.jpg)
