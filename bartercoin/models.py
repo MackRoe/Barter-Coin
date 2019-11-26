@@ -12,7 +12,7 @@ class Profile(models.Model):
     headline = models.CharField(max_length=200)
     description = models.TextField()
     barter_options = models.CharField(max_length=200)
-    tokens_requested = models.IntegerField()
+    token_balance = models.IntegerField()
     created_date = models.DateTimeField(default=timezone.now)
     published_date = models.DateTimeField(blank=True, null=True)
 
@@ -21,4 +21,4 @@ class Profile(models.Model):
         self.save()
 
     def __str__(self):
-        return self.headline
+        return self.user_name
