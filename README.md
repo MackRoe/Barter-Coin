@@ -1,5 +1,10 @@
 # Barter Coin
 
+### To run
+Clone, then use terminal to navigate to its local directory.
+`python3 manage.py runserver`
+__Note: Python 3 must be installed__
+
 ## User Story
 
 Demographic: Forward thinking, fiscally aware
