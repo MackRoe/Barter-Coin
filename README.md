@@ -1,8 +1,13 @@
 # Barter Coin
 
+## [Rough HTML/CSS Prototype](https://mackroe.github.io/Barter-Coin/)
+
+
 ### To run
-Clone, then use terminal to navigate to its local directory.
+Clone, then use terminal to navigate to its local directory and enter:
+
 `python3 manage.py runserver`
+
 __Note: Python 3 must be installed__
 
 ## User Story
