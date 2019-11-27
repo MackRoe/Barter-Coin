@@ -9,28 +9,26 @@ Barter Token
     <body>
         <!-- Begin NavBar -->
         <nav class="navbar navbar-expand-lg navbar-light bg-light">
-          <a class="navbar-brand" href="index.html">Barter Token</a>
+          <a class="navbar-brand" href="/">Barter Token</a>
           <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
 
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav mr-auto">
-              <li class="nav-item">
-                <a class="nav-link" href="#"> <span class="sr-only">(current)</span></a>
+              <li class="nav-item active">
+                <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
               </li>
-              <!-- <li class="nav-item">
+              <li class="nav-item">
                 <a class="nav-link text-info" href="signup.html">Sign Up</a>
               </li>
               <li>
               /</li>
               <li class="nav-item">
                 <a class="nav-link text-info" href="login.html" tabindex="-1" aria-disabled="false">Log In</a>
-              </li> -->
-              <li class="nav-item active">
-                <a href="profile.html"><img src="https://img.icons8.com/dusk/64/000000/cat-profile.png" width="35px" length="35px">
-                    <span class="text-info"> Prrrofile </span>
-                </a>
+              </li>
+              <li>
+                <a href="profile.html"><img src="https://img.icons8.com/dusk/64/000000/cat-profile.png" width="35px" length="35px"> Prrrofile</a>
                 </li>
             </ul>
             <form class="form-inline my-2 my-lg-0">
@@ -40,12 +38,18 @@ Barter Token
           </div>
         </nav>
         <!--End NavBar -->
-        <div id="profile_info" class="container align:center pt-5">
-            <p>
-                Name:  {{ Profile.user_name }}<br>
-                Email: {{ Profile.user_email }}<br>
-                Offer: {{ Profile.description }}
-            </p>
+        <div class="col-md-6 pt-5 pl-5 ml-5">
+            <form action="/my-handling-form-page" method="post">
+              <div>
+                <label for="name">Name:......</label>
+                <input type="text" id="name" name="user_name">
+              </div>
+              <div>
+                <label for="mail">Password:</label>
+                <input type="email" id="pw" name="user_pw">
+              </div>
+
+            </form>
         </div>
         <!-- JS links -->
         <!-- jQuery first, then Popper.js, then Bootstrap JS -->
