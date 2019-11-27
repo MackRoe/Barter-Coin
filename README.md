@@ -1,9 +1,12 @@
 # Barter Coin
 
-## [Rough HTML/CSS Prototype](https://mackroe.github.io/Barter-Coin/)
+#### [Rough HTML/CSS Prototype](https://mackroe.github.io/Barter-Coin/)
+
+^ Click link above ^
 
 
-### To run
+## Running the App
+--Unavailable in current version--
 Clone, then use terminal to navigate to its local directory and enter:
 
 `python3 manage.py runserver`
