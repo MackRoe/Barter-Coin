@@ -29,13 +29,13 @@
         </ul>
         <form class="form-inline my-2 my-lg-0">
           <input class="form-control mr-sm-2" type="search" placeholder="" aria-label="Search">
-          <button class="btn btn-outline-info my-2 my-sm-0" type="submit">Search</button>
+          <button class="btn btn-outline-primary my-2 my-sm-0" type="submit">Search</button>
         </form>
       </div>
     </nav>
     <!--End NavBar -->
 
-    <div style="text-align:center">
+    <fieldset style="container col-md-8 pl-5">
         <form action="/my-handling-form-page" method="post">
         <div>
             <label for="name">Name:</label>
@@ -46,10 +46,16 @@
             <input type="email" id="mail" name="user_mail">
         </div>
         <div>
-            <label for="msg">Message:</label>
-            <textarea id="msg" name="user_message"></textarea>
+            <label for="offer">Your Offer:</label>
+            <textarea id="offer" name="offer_desc"></textarea>
         </div>
+        <div>
+            <label for="token_req">TOKENs Requested:</label>
+            <input type="token_req" id="token-req" name="token_req">
+        </div>
+
         </form>
+    </fieldset>
 <button type="button" class="btn btn-primary rounded shadow">Submit</button>
 <!-- jQuery first, then Popper.js, then Bootstrap JS -->
 <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
