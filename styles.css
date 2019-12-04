@@ -4,3 +4,7 @@
  background-repeat: no-repeat;
  /* opacity: 0.2; */
 }
+.offer-button{
+         bottom: 10px;
+         display: inline-block;
+         }
