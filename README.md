@@ -1,5 +1,7 @@
 # Barter Coin
 
+[Proposal](proposal.md)
+
 #### [Rough HTML/CSS Prototype](https://mackroe.github.io/Barter-Coin/)
 
 ^ Click link above ^
