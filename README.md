@@ -8,8 +8,8 @@
 
 
 ## Running the App
---Unavailable in current version--
-Clone, then use terminal to navigate to its local directory and enter:
+--Back End Under Construction--
+..Clone, then use terminal to navigate to its local directory and enter:
 
 `python3 manage.py runserver`
 
