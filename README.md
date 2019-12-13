@@ -1,10 +1,13 @@
-# Barter Coin
+# TradeIt
+(formerly Barter Coin)
 
 [Proposal](proposal.md)
 
 #### [Rough HTML/CSS Prototype](https://mackroe.github.io/Barter-Coin/)
 
 #### [New Repository](https://github.com/MackRoe/TradeIt)for backend development
+
+#### [Video Demonstration](https://youtu.be/qixrCzyI_IU)
 
 ^ Click link above ^
 
